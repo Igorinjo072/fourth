@@ -6,6 +6,7 @@ on:
     branches:
       - master
       - 'dev-*'
+      - new_branch
   workflow_dispatch:
   push:
     branches:
