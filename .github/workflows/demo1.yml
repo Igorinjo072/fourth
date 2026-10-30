@@ -10,7 +10,7 @@ on:
   push:
     branches:
       - master
-      - 'dev-*' 
+      - dev 
 jobs:
   deploy:
     runs-on: ubuntu-latest
